@@ -1,0 +1,42 @@
+a, input, textarea, button {
+    outline: none!important;
+}
+a:hover, a:focus, input:focus, input:hover, textarea:hover, textarea:focus, button:hover, button:focus {
+    outline: none!important;
+}
+
+.sessions-block-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+#sessions_page .sessions-block {
+    padding: 10px;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    min-width: 70px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+#sessions_page .sessions-block.active {
+    border-color: #339966;
+    color: #339966;
+}
+#sessions_page p {
+    text-align: start;
+}
+#sessions_page div {
+    text-align: start;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
